@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="container-fluid">
+    <form id="formularioCadastro">
+        <center>
+            <div class="col">
+                <fieldset>
+                    <div id="divFieldsetC">
+                     <!--MUDAREI O LAYOUT-->
+                        <div id="divCrie">
+                            <legend>Crie sua conta</legend>
+                        </div>
+<!--
+                        <div id="input01">
+                            <label for="nomeDeUsuario">Digite um nome de usuário:</label><br>
+                            <input type="text" " id="nomeDeUsuario" required>
+                        </div><br>
+                    -->
+                        <div id="input01" class="form-floating mb-3">
+                            <input type="text" class="form-control" id="nomeDeUsuario" placeholder="nome" name="nomeDeUsuario>
+                            <label for="nomeDeUsuario">Digite um nome de usuário</label>
+                        </div>
+<!--
+                        <div id="input02">
+                            <label for="senhaCadastro">Digite uma senha:</label><br>
+                            <input type="password" name="senhaCadastro" id="senhaCadastro" required>
+                        </div><br>
+-->
+                        <div id="input02" class="form-floating mb-3">
+                            <input type="password" class="form-control" id="senhaCadastro" placeholder="senha" name="senhaCadastro>
+                            <label for="senhaCadastro">Digite uma senha</label>
+                        </div>
+<!--
+                        <div id="input03">
+                            <label for="senhaVerifica">Digite a senha novamente:</label><br>
+                            <input type="password" name="senhaVerifica" id="senhaVerifica" required>
+                        </div><br>
+-->
+                        <div id="input03" class="form-floating mb-3">
+                            <input type="password" class="form-control" id="senhaVerifica" placeholder="senha" name="senhaVerifica>
+                            <label for="senhaVerifica">Digite a senha novamente</label>
+                        </div>
+
+                      <!-- <input type="submit" value="Enviar">
+                        <button type="reset">Limpar</button>--> 
+                        <div class="d-grid gap-2 d-md-block">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                            <button class="btn btn-primary" type="reset">Limpar</button>
+                         </div>
+
+                    </div>
+                </fieldset>
+            </div>
+        </center>
+    </form>
+    <script src="dist/cadastro.js"></script>
+
+</body>
+
+</html>

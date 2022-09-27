@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recados</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="container-fluid">
+    <center>
+        <div class="row">
+            <div class="col">
+                
+                <form id="formularioRecados">
+                 <!--MUDAREI O LAYOUT-->
+                    <div>
+                        <h2>Meus recados</h2>
+                    </div>
+
+                    <input type="text" name="descricao" id="descricao" placeholder="Digite aqui uma descrição" required>
+                    
+                    <input type="text" name="detalhamento" id="detalhamento" placeholder="Digite aqui o detalhamento"
+                        required>
+                    <!--<input type="submit" value="Salvar recado">-->
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-primary" type="submit">salvar recado</button>
+                     </div>
+                </form>
+
+                <div id="recados">
+                    <table border="1px" id="tabelaDeRecados">
+                        <td align="center">Ordem</td>
+                        <td align="center">Descrição</td>
+                        <td align="center">Detalhamento</td>
+                        <td align="center">Ação</td>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </center>
+    <script src="dist/recados.js"></script>
+
+</body>
+
+</html>

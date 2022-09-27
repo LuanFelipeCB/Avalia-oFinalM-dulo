@@ -1,0 +1,69 @@
+body{
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+}
+
+fieldset{
+    background-color: aqua;
+    width: 350px;
+    height: 350px;
+}
+
+.row{
+    width: 100vw;
+}
+
+#formularioLogin{
+    padding-top:90px;
+    padding-bottom: 90px;
+}
+
+#formularioCadastro{
+    padding-top:90px;
+    padding-bottom: 90px;
+}
+
+#divFieldsetC{
+    padding-top: 10px;
+    padding-bottom: 140px;
+}
+
+#divFieldsetL{
+    padding-top: 100px;
+    padding-bottom: 140px;
+    animation: FieldsetL 10s infinite;
+    
+}
+
+#divRecados{ /*pag de recados -->*/
+    background-color: aqua;
+    width: 1150px;
+    height: 410px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content:center;
+   
+}
+
+
+#fieldsetL{
+    animation: fieldsetL 5s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes fieldsetL{
+    from{
+        font-size: 0px;
+    }
+    to{
+       font-size: 10x;
+       
+    }
+}
+

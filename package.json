@@ -1,0 +1,15 @@
+{
+  "name": "avaliacao_final_do_modulo",
+  "version": "1.0.0",
+  "description": "trabalho final de módulo - sistema de recados",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luan Felipe",
+  "license": "ISC",
+  "devDependency": {
+    "typescript": "^4.8.3"
+  }
+}

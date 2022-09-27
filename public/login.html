@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="container-fluid">
+    <center>
+        <div class="col">
+
+            <form id="formularioLogin">
+
+                <fieldset id="fieldsetL">
+                    <div id="divFieldsetL">
+                        <!--MUDAREI O LAYOUT
+                        <div id="input01L">
+                            <label for="usuarioLogin">Usuário:</label>
+                            <input type="text" name="usuarioLogin" id="usuarioLogin" required><br><br>
+                        </div>
+-->
+                        <div id="input01L" class="form-floating mb-3">
+                            <input type="text" class="form-control" id="usuarioLogin" placeholder="nome">
+                            <label for="usuarioLogin">Usuário</label>
+                        </div>
+
+                        <!--<div id="input02L">
+                            <label for="senhaLogin">Senha:</label>
+                            <input type="password" name="senhaLogin" id="senhaLogin" required><br><br>
+                        -->
+                        <div id="input02L" class="form-floating mb-3">
+                            <input type="password" class="form-control" id="senhaLogin" placeholder="senha">
+                            <label for="senhaLogin">senha</label>
+                        </div>
+
+                        <!--  <input type="submit" value="Enviar">-->
+                        <div class="d-grid gap-2 d-md-block">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <h6><a href="cadastro.html">Criar uma conta</a></h6>
+
+        </div>
+        </fieldset>
+        </form>
+
+        <script src="dist/login.js"></script>
+        </div>
+    </center>
+</body>
+
+</html>
